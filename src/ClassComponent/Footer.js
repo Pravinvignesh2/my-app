@@ -9,7 +9,7 @@ class Footer extends React.Component
 
     render()
     {
-        return <p>Copyright@Amazon.in</p>  
+        return <p style={{textAlign : "center"}}>Copyright@Amazon.in</p>  
     }
 }
 

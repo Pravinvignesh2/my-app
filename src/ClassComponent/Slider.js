@@ -1,5 +1,5 @@
 import React from "react";
-// import img from './ClassComponent/wallpaper.jpg';
+import img from './wallpaper.jpg';
 
 class SliderComponent extends React.Component
 {
@@ -11,8 +11,8 @@ class SliderComponent extends React.Component
     {
        return  (
         <div>
-          {/* <img src={img} alt="Anime" /> */}
-          <h3>Hello</h3>
+          <img src={img} alt="Anime" width={50}/>
+          {/* <h3>Hello</h3> */}
         </div>
       );
 
