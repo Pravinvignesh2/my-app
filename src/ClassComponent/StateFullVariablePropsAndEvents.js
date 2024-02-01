@@ -6,7 +6,7 @@ class StateFullVariablePropsAndEvents extends React.Component
         super();
 
         this.state={
-            myName : "Pravinvignesh", age : 22, mobileNum : 9952139073}
+            myName : "Pravin", age : 22}
     }
     render(){
         var productName = "iPhone 14 pro max";
