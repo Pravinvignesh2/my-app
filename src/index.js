@@ -10,6 +10,7 @@ import SliderComponent from './ClassComponent/Slider';
 import ProdList from './ClassComponent/ProductList';
 import Footer from './ClassComponent/Footer';
 import LifeCycleOfCc from './ClassComponent/LifeCycleOfCC';
+import StateFullVariablePropsAndEvents from './ClassComponent/StateFullVariablePropsAndEvents';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,11 +18,12 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
   <HeaderClassComponent></HeaderClassComponent>
-  <LifeCycleOfCc></LifeCycleOfCc>
+  {/* <LifeCycleOfCc></LifeCycleOfCc> */}
   <MenuComponent></MenuComponent>
-  <SliderComponent></SliderComponent>
-  <ProdList></ProdList>
-  <Footer></Footer>
+  {/* <SliderComponent></SliderComponent> */}
+  {/* <ProdList></ProdList> */}
+  {/* <Footer></Footer> */}
+  <StateFullVariablePropsAndEvents></StateFullVariablePropsAndEvents>
   
   </React.StrictMode>
 
