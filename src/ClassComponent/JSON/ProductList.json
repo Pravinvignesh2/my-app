@@ -1,0 +1,20 @@
+[
+    {
+        "prodName": "Samsung",
+        "prodModel": "S24 Ultra",
+        "prodPrice": 159999,
+        "prodColor": "Titanium Blue"
+    },
+    {
+        "prodName": "iPhone",
+        "prodModel": "15 Pro Max",
+        "prodPrice": 156900,
+        "prodColor": "White Titanium"
+    },
+    {
+        "prodName": "Oneplus",
+        "prodModel": "12",
+        "prodPrice": 69999,
+        "prodColor": "Flowy Emerald"
+    }
+]
