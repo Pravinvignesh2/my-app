@@ -13,6 +13,9 @@ class StateFullVariablePropsAndEvents extends React.Component
         var productPrice = 79999;
 
         return <>
+
+            <h3 style={{color:"orange"}}>React Full Stack</h3>
+
             Product 1 Using State less variable 
             <h3>{productName} : {productPrice}</h3>
 
