@@ -15,26 +15,33 @@ class Calculator extends React.Component {
 
     handleButtonClick = (value) =>{
         this.setState((prevState) =>({
-            inputVale : prevState.inputVale + value,
+            inputValue : prevState.inputValue + value,
         }));   
     };
 
     handleClear = () =>{
         this.setState ({
-            inputVale : "",
+            inputValue : "",
         });
     };
 
+    handleSingleInputClear = () => {
+        this.setState((prevState) => ({
+          inputValue: prevState.inputValue.slice(0, -1), 
+        }));
+      };
+      
+
     handleCalculate = () =>{
         try{
-            const result = eval(this.state.inputVale);
+            const result = eval(this.state.inputValue);
             this.setState({
-                inputVale : result.toString(),
+                inputValue : result.toString(),
             });
         }
         catch(error) {
             this.setState({
-                inputVale : "Error",
+                inputValue : "Error",
             });
         }
         
@@ -42,7 +49,7 @@ class Calculator extends React.Component {
 
     handleInputChange = (event) =>{
         this.setState({
-            inputVale : event.target.value,
+            inputValue : event.target.value,
         });
     }
 
@@ -50,12 +57,13 @@ class Calculator extends React.Component {
     render(){
         return (<div className="calculator">
             <Display 
-                value={this.state.inputVale} 
+                value={this.state.inputValue} 
                 onChange={this.handleInputChange} 
             />
             <Keypad 
                 onButtonClick = {this.handleButtonClick}
                 onClear = {this.handleClear}
+                onClearSingleChar={this.handleSingleInputClear}
                 onCalculate ={this.handleCalculate}
             />
             

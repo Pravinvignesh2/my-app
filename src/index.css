@@ -32,7 +32,7 @@ body{
 
 .calculator{
   flex-direction: column;
-  background: #FFFDD0;
+  background: #fffafa ;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
@@ -56,9 +56,18 @@ body{
   grid-gap: 0.5rem;
 }
 
+.keypad-button {
+  font-size: 1.4rem; /* Adjust the font size as needed */
+}
+
+
 button{
-  padding: 5px;
+  padding: 10px;
   width: 60px;
-  height: 40px;
-  font-size: 18px;
+  /* height: 40px; */
+  font-size: 2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
 }
