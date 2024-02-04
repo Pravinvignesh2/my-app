@@ -11,19 +11,22 @@ import ProdList from './ClassComponent/ProductList';
 import Footer from './ClassComponent/Footer';
 import LifeCycleOfCc from './ClassComponent/LifeCycleOfCC';
 import StateFullVariablePropsAndEvents from './ClassComponent/StateFullVariablePropsAndEvents';
+import Calculator from './CalculatorUsingClassComponent/Calculator';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-  <HeaderClassComponent></HeaderClassComponent>
+  {/* <HeaderClassComponent></HeaderClassComponent> */}
   {/* <LifeCycleOfCc></LifeCycleOfCc> */}
-  <MenuComponent></MenuComponent>
+  {/* <MenuComponent></MenuComponent> */}
   {/* <SliderComponent></SliderComponent> */}
   {/* <ProdList></ProdList> */}
   {/* <Footer></Footer> */}
-  <StateFullVariablePropsAndEvents></StateFullVariablePropsAndEvents>
+  {/* <StateFullVariablePropsAndEvents></StateFullVariablePropsAndEvents> */}
+   
+   <Calculator></Calculator>
   
   </React.StrictMode>
 
